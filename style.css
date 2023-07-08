@@ -1,0 +1,84 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-header {
+    background-image: url(./Image/banner1.png);
+    background-position: top center;
+    text-align: right;
+}
+
+.chilled-header {
+    height: 600px;
+    max-width: 550px;
+    display: inline-block;
+    text-align: right;
+    margin-top: 200px;
+}
+
+.chilled-header h1 {
+    font-size: 60px;
+}
+
+.chilled-header p {
+    font-size: 18px;
+    color: rgb(86, 96, 107);
+}
+
+main {
+    margin: 100px 150px;
+}
+
+.main-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 300px;
+}
+
+.chilled-banner {
+    position: relative;
+    margin: 50px;
+}
+
+.chilled-banner div {
+    height: 490px;
+    width: 520px;
+    background-color: rgb(245, 214, 191);
+    border-radius: 50%;
+}
+
+.chilled-banner img {
+    position: absolute;
+    top: -230px;
+    left: -30px;
+}
+
+.chilled-banner-1 {
+    margin-top: -100px;
+}
+
+.chilled-banner-1 h2 {
+    font-size: 35px;
+}
+
+.chilled-banner-1 p {
+    color: rgb(86, 96, 107);
+}
+
+.chilled-banner-1 ul {
+    margin-left: -50px;
+}
+
+.chilled-banner-1 ul li {
+    font-size: 14px;
+    color: rgb(86, 96, 107);
+    line-height: 40px;
+    list-style: none;
+}
+
+.chilled-banner-1 ul li span {
+    font-size: 20px;
+    color: green;
+    padding: 0px 10px;
+}
