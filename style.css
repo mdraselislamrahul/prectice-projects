@@ -82,3 +82,27 @@ main {
     color: green;
     padding: 0px 10px;
 }
+
+.Plans {
+    margin-top: 50px;
+}
+
+.Plans h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chilled-plans {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.chilled-plans h3 {
+    color: rgb(86, 96, 107);
+}
