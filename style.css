@@ -106,3 +106,100 @@ main {
 .chilled-plans h3 {
     color: rgb(86, 96, 107);
 }
+
+.manin-banner {
+    height: 310px;
+    background-image: url(./Image/watch.png);
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.manin-banner h1 {
+    color: rgb(255, 251, 251);
+    text-align: left;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    font-size: 30px;
+}
+
+.manin-banner button {
+    border: none;
+    color: tomato;
+    background-color: aliceblue;
+    padding: 15px 30px;
+    margin: 50px 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.chilled-footer {
+    max-width: 500px;
+}
+
+.chilled-footer input {
+    display: block;
+    height: 50px;
+    width: 250px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.chilled-footer button {
+    border: none;
+    color: rgb(250, 250, 250);
+    background-color: tomato;
+    padding: 15px 30px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 100px 0px;
+}
+
+.chilled-footer h1 {
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.chilled-footer h3 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.chilled-footer p {
+    color: aliceblue;
+}
+
+.chilled-footer h6 {
+    color: aliceblue;
+}
+
+.chilled-footer small {
+    color: aliceblue;
+}
+
+.chilled-footer ul {
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.chilled-footer ul li {
+    display: inline-block;
+}
